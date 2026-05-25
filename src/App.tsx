@@ -1,5 +1,6 @@
 import './styles/global.css'
 import { Sidebar } from './components/layout/sidebar/sidebar'
+import { Hero } from './components/layout/hero/hero'
 
 export const App = () => {
   return (
@@ -7,9 +8,7 @@ export const App = () => {
       <div className="flex min-h-screen">
         <Sidebar/>
         <main className="shadow-[0_0_50px_rgba(59,130,246,0.25)] flex-1 p-200">
-          <div className="">
-            <h1 className=""></h1>
-          </div>
+          <Hero />
         </main>
       </div>
     </div>
