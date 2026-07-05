@@ -1,6 +1,5 @@
 import { motion } from "framer-motion";
 
-// Lista de tecnologias exibidas na seção sobre mim.
 const techs = [
   "TypeScript",
   "React",
@@ -12,7 +11,6 @@ const techs = [
   "Git",
 ];
 
-// Página de apresentação pessoal com resumo, trajetória e tecnologias favoritas.
 export default function Sobre() {
   return (
     <main className="relative z-10 flex-1 p-16 overflow-y-auto">
@@ -55,12 +53,10 @@ export default function Sobre() {
           </h2>
 
           <p className="text-slate-400 leading-8">
-            Comecei estudando desenvolvimento web por curiosidade e,
-            com o tempo, descobri uma paixão por engenharia de software.
-
-            Hoje concentro meus estudos principalmente em React,
-            TypeScript, Go e arquitetura de software, buscando escrever
-            código limpo, reutilizável e de fácil manutenção.
+            Comecei estudando desenvolvimento web por curiosidade e, com o tempo, descobri uma paixão pela engenharia de software. Desde então, venho aprofundando meus conhecimentos em React, TypeScript, Go e arquitetura de software, desenvolvendo projetos que reforçam tanto minha base técnica quanto minha capacidade de criar soluções modernas e escaláveis.
+            <br />
+            <br />
+            Busco escrever código limpo, reutilizável e de fácil manutenção, sempre aplicando boas práticas de desenvolvimento e aprendendo continuamente novas tecnologias. Meu objetivo é evoluir como engenheiro de software e contribuir para a construção de produtos de alta qualidade.
           </p>
         </motion.div>
 
@@ -83,7 +79,7 @@ export default function Sobre() {
               </h3>
 
               <p className="text-slate-400">
-                Desenvolvimento Full Stack com foco em React, TypeScript e Node.
+                Finalizei o Ensino médio e ingressei na faculdade. Meu foco era Backend com Golang, Sql e Javascript/Node.js
               </p>
             </div>
 
@@ -93,7 +89,7 @@ export default function Sobre() {
               </h3>
 
               <p className="text-slate-400">
-                Ingresso na Intelbras como estagiário em Engenharia de Software / P&D.
+                Início da Faculdade de Engenharia de Software e ingresso na Intelbras como estagiário em Engenharia de Software / P&D.
               </p>
             </div>
 
@@ -103,7 +99,7 @@ export default function Sobre() {
               </h3>
 
               <p className="text-slate-400">
-                Estudando arquitetura, Docker, cloud e boas práticas para me tornar Engenheiro de Software.
+                Continuo trabalhando como estágiário de P&D na intelbars, porém uma visão maior em outras áreas do Desenvolvimento, nao se limitando apenas a backend, estudando arquitetura, Docker, cloud e boas práticas para me tornar Engenheiro de Software.
               </p>
             </div>
 
