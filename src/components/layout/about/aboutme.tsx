@@ -1,9 +1,9 @@
-import reactIcon from "/src/assets/icons/codeLang/atom.png";
-import tsIcon from "/src/assets/icons/codeLang/typescript.svg";
-import goIcon from "/src/assets/icons/codeLang/golang.svg";
-import nodeJs from "/src/assets/icons/codeLang/nodejsHex.svg";
-import mySQL from "/src/assets/icons/codeLang/mysql.svg";
-import tailwindCss from "/src/assets/icons/codeLang/tailwind.svg";
+import reactIcon from "/atom.png";
+import tsIcon from "/typescript.svg";
+import goIcon from "/golang.svg";
+import nodeJs from "/nodejsHex.svg";
+import mySQL from "/mysql.svg";
+import tailwindCss from "/tailwind.svg";
 
 type SkillBarProps = {
     skill: string;

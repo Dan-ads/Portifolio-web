@@ -3,13 +3,13 @@ import { NavLink } from "react-router-dom";
 // Exibe a barra lateral de navegação com os links principais do portfólio.
 export const Sidebar = () => {
   const navItems = [
-    { label: "Inicio", icon: "/src/assets/icons/house.svg", path: "/" },
-    { label: "Sobre", icon: "/src/assets/icons/person.svg", path: "/sobre" },
-    // { label: "Skills", icon: "/src/assets/icons/backpack3.svg", path: "/skills" },
-    // { label: "Projetos", icon: "/src/assets/icons/card-checklist.svg", path: "/projetos" },
-    { label: "Experiência", icon: "/src/assets/icons/mortarboard.svg", path: "/experiencia" },
-    // { label: "Certificados", icon: "/src/assets/icons/shield-check.svg", path: "/certificados" },
-    { label: "Contato", icon: "/src/assets/icons/envelope.svg", path: "/contato" },
+    { label: "Inicio", icon: "/house.svg", path: "/" },
+    { label: "Sobre", icon: "/person.svg", path: "/sobre" },
+    // { label: "Skills", icon: "/backpack3.svg", path: "/skills" },
+    // { label: "Projetos", icon: "/card-checklist.svg", path: "/projetos" },
+    { label: "Experiência", icon: "/mortarboard.svg", path: "/experiencia" },
+    // { label: "Certificados", icon: "/shield-check.svg", path: "/certificados" },
+    { label: "Contato", icon: "/envelope.svg", path: "/contato" },
   ];
 
   return (

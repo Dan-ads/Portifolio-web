@@ -22,7 +22,7 @@ export const ViewProjects = () => {
             <a
                 href="https://github.com/Dan-ads" target="_blank" className="w-fit flex items-center gap-2 inline-block px-6 py-3 bg-blue-500 text-white rounded-lg shadow-md transition-transform transform hover:scale-110 hover: blue-100">
                 <h4>Ver meus projetos</h4> 
-                <img src="./src/assets/icons/arrow-right.svg" className="w-5 h-5 invert"></img>
+                <img src="/arrow-right.svg" className="w-5 h-5 invert"></img>
             </a>
         </div>
     );
@@ -34,7 +34,7 @@ export const ContactMe = () => {
             <a
                 href="https://www.linkedin.com/in/daniel-souza-leite-43981b352/" target="_blank" className="w-fit flex items-center gap-2 inline-block px-6 py-3 border 1px border-gray-600 text-white rounded-lg shadow-md transition-transform transform hover:scale-110 hover:box-shadow: 0 0 25px blue-500">
                 <h4>Entre em contato</h4> 
-                <img src="./src/assets/icons/arrow-right.svg" className="w-5 h-5 invert"></img>
+                <img src="/arrow-right.svg" className="w-5 h-5 invert"></img>
             </a>
         </div>
     );
@@ -52,7 +52,7 @@ export const Picture = () => {
     return(
         <div>
             <span>
-                <img src="../src/assets/imgs/retrato.png" width={800}></img>
+                <img src="/retrato.png" width={800}></img>
             </span>
         </div>
     );
@@ -62,13 +62,13 @@ export const FollowIcons = () => {
     return (
         <div className="flex items-center gap-2 ">
             <a href="https://github.com/Dan-ads" target="_blank" rel="noreferrer" className="inline-block p-2">
-                <img className='w-5 h-5 invert' src='../src/assets/icons/github.svg' />
+                <img className='w-5 h-5 invert' src='/github.svg' />
             </a>
             <a href="https://www.linkedin.com/in/daniel-souza-leite-43981b352/" target="_blank" rel="noreferrer" className="inline-block p-2">
-                <img className='w-5 h-5 invert' src="../src/assets/icons/linkedin.svg" />
+                <img className='w-5 h-5 invert' src="/linkedin.svg" />
             </a>
             <a href="https://www.instagram.com/daniel.sleite/" target="_blank" rel="noreferrer" className="inline-block p-2">
-                <img className='w-5 h-5 invert' src="../src/assets/icons/instagram.svg" />
+                <img className='w-5 h-5 invert' src="/instagram.svg" />
             </a>
         </div>
     )
