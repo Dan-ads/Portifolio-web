@@ -99,7 +99,7 @@ export default function Sobre() {
               </h3>
 
               <p className="text-slate-400">
-                Continuo trabalhando como estágiário de P&D na intelbars, porém uma visão maior em outras áreas do Desenvolvimento, nao se limitando apenas a backend, estudando arquitetura, Docker, cloud e boas práticas para me tornar Engenheiro de Software.
+                Continuo trabalhando como estágiário de P&D na intelbras, porém uma visão maior em outras áreas do Desenvolvimento, não se limitando apenas a backend, estudando arquitetura, Docker, cloud e boas práticas para me tornar Engenheiro de Software.
               </p>
             </div>
 
